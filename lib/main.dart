@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Asroo Shop',
+      title: 'ANFANI SHOP',
       debugShowCheckedModeBanner: false,
       locale: Locale(GetStorage().read<String>('lang').toString()),
       translations: LocaliztionApp(),
